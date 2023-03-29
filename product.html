@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Product Page</title>
+	<link rel="stylesheet" href="style.css"/>
+	<link rel="stylesheet" href="grid.css"/>
+	<link href="http://fonts.cdnfonts.com/css/damion" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Iceberg' rel="stylesheet">
+	       
+</head>
+<body>
+	<header> <!-- contains the logo, copied from index page -->
+		<h1><span class="Robot">Robot</span> <span class="Juice">Juice</span></h1>
+		<h2>fictitious cycle lubricants</h2>
+	</header>
+	<section class="navbar"> <!-- contains menu navigation bar, copied from index page but switched to show that its the product page that the user is currently on -->
+		<nav>
+			<ul>
+				<li ><a href="index.html">Home</a></li>
+				<li><a class="active" href="product.html">Products</a></li>
+				<li><a href="">Protect</a></li>
+				<li><a href="">Stockist's</a></li>
+				<li><a href="">Events</a></li>
+				<li><a href="">Reviews</a></li>
+			</ul>
+		</nav>
+	</section>
+	<main> 
+	<section class="productwrapper"> <!-- this section holds the grid at the top of the product page, this includes the 3 smaller thumbnails,the larger image, and the purchasing information regarding the product -->
+		<section class="productimg1">
+			<img src="images/prod-thumb1.jpg" alt="Product Thumbnail 1" class="productimages" id="image1id" />
+		</section>
+		<section class="productimg2">
+			<img src="images/prod-thumb2.jpg" alt="Product Thumbnail 2" class="productimages" id="image2id" />
+		</section>	
+		<section class="productimg3">
+			<img src="images/prod-thumb3.jpg" alt="Product Thumbnail 3" class="productimages" id="image3id" />
+		</section>
+		<section class="largeimage1">
+			<img src="images/robotjuicebikeoil.jpg" alt="Large Product 1" class="largeproductimages" id="image4id" />
+		</section>
+		<section class="productinfo">
+			<p id="productname">Bike Oil</p>
+			<p id="price">£99.99</p>
+			<p id="dropdown">
+			<section class="dropdown1">
+				<form action="#">
+					<select name="size" id="size" value="size"> <!-- links to css, using select automatically creates a drop down menu, no javascript was needed, code was replicated for quantity, but option values were changed -->
+						<option value="S">S</option>
+						<option value="M">M</option>
+						<option value="L">L</option>
+						<option value="XL">XL<option>
+					</select>
+				</form>
+			</section>
+			<section class="dropdown2">
+				<form action="#">
+					<select name="quantity" id="qty" value="quantity">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3<option>
+						<option value="4">4<option>
+						<option value="5">5<option>
+					</select>
+				</form>
+			</section>
+			<button type="button" action="#" id="buybtn">BUY NOW</button> <!-- buy button acts and looks like a button but doesnt do anything -->
+			<p id="nearstock" class="buytext"><a href="https://www.google.com/maps" target="_blank">FIND NEAREST STOCKIST</a></p> <!-- takes the user to the google maps home page when clicked, doesnt show any other information -->
+			<p class="buytext" id="share">SHARE
+				<img src="images/facebook.jpg" alt="fblogo" class="buyimgs" id="fbimg" /> <!-- unable to add a link to any of these images as a link cant just be added to an img tag, it needs to be added to an a tag, which cant be implemented without changing the layout of the page -->
+				<img src="images/twitter.jpg" alt="twtlogo" class="buyimgs" id="twtimg" />
+				<img src="images/email.jpg" alt="emaillogo" class="buyimgs" id="emailimg" />
+			</p>
+			<p id="buydesc">
+			Robot Juice bike oil for bicycles stops rust and other corrosion from starting. Applied to already
+			corroding metals it breaks down the corrosion and starts preventing it from building up and protects
+			from the point of contact.</p>
+		</section>
+	</section>
+	<p class="reviewborder"></p>
+	<section id="similarprod"> <!-- this holds the similar products images, these are all different on the original page, but i could only find the one image to use so they all look the same -->
+		<p>Similar Products</p>
+		<img src="images/simprod.jpg" alt="simprod" class="simprodimgs" />
+		<img src="images/simprod.jpg" alt="simprod" class="simprodimgs" />
+		<img src="images/simprod.jpg" alt="simprod" class="simprodimgs" />
+		<img src="images/simprod.jpg" alt="simprod" class="simprodimgs" />
+		<img src="images/simprod.jpg" alt="simprod" class="simprodimgs" />
+		<img src="images/simprod.jpg" alt="simprod" class="simprodimgs" />
+	</section>
+	<section id="prodreview">
+	<p class="reviewborder"></p>
+		<section id="prodreviewsline1"> <!-- this holds all of the product reviews, if the website was redesigned i would change this to be a list instead of using sections as i was unable to properly use jquery and apis to bring in extra reviews -->
+			<h3 id="prodreviewtitle">Product Reviews
+			Space for 5 stars</h3>
+		</section>
+		<p class="reviewborder"></p>
+		<section id="review1">
+			<img src="images/reviewicon1.jpg" alt="revicon" class="reviewimage" />
+			<p class="gg1">
+			Great Greace!!</p>
+			<p class="review1text">
+			Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+			euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad 
+			minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex 
+			ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit 
+			esse molestie consequat, vel illum dolore eu feugiat nulla facilis at vero eros et. 
+			<p>
+		</section>
+		<p class="reviewborder"></p>
+		<section id="review2">
+		<img src="images/reviewicon1.jpg" alt="revicon" class="reviewimage" />
+			<p class="gg1">
+			Great Greace!!</p>
+			<p class="review1text">
+			Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilis at vero eros et. 
+			<p>
+		</section>
+		<p class="reviewborder"></p>
+		<section id="review3">
+		<img src="images/reviewicon1.jpg" alt="revicon" class="reviewimage" />
+			<p class="gg1">
+			Great Greace!!</p>
+			<p class="review1text">
+			Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilis at vero eros et. 
+			<p>
+		</section>
+		<p class="reviewborder"></p>
+		<section id="review4">
+		<img src="images/reviewicon2.jpg" alt="revicon" class="reviewimage"/>
+			<p class="gg1">
+			Great Greace!!</p>
+			<p class="review1text">
+			Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilis at vero eros et. 
+			<p>
+		</section>
+		<p class="reviewborder"></p>
+		<section id="review5">
+		<img src="images/reviewicon1.jpg" alt="revicon"  class="reviewimage" />
+			<p class="gg1">
+			Great Greace!!</p>
+			<p class="review1text">
+			Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilis at vero eros et. 
+			<p>
+		</section>
+		<p class="reviewborder"></p>
+		<section id="readmore">
+			<button class="readrev">READ ALL REVIEWS</button> <!-- read similar to buy button, looks and acts like a button but doesnt do anythign when clicked as jquery couldnt properly be set up. -->
+			</section>
+	<section class="reviewlinks">  <!-- the rest of the code was copied across from the index page as its the exact same -->	
+	
+		<img src="images/cyclemagazine.jpg" alt="Cycle Magazine" id="reviewlinks21" class="cyclemagimage" />
+		<section class="reviews" id="reviewlinks22"> 
+			<h3 id="reviewheading">Latest Reviews</h3>
+			<p id="reviewtext">Cycling magazine has given Robot Juice a 5 star rating in its latest reviews of dry lubricants. Robot Juice Dry lube was rated the highest out of over 40 top brand dry lubs.</p>
+		</section>
+		<section class="links" id="reviewlinks23">
+			<h4 id="linkheading">Links</h4>
+			<a href="https://www.edgehill.ac.uk/" class="linktext"target="_blank">Edge Hill University</a>
+			<a href="https://www.linkedin.com/in/dave-walsh-57680527/" class="linktext"target="_blank">Dave Walsh</a>
+			<a href="https://twitter.com/walsh_d/" class="linktext"target="_blank">https://twitter.com/walsh_d</a>
+			<a href="https://www.edgehill.ac.uk/courses/software-engineering/tab/modules/" class="linktext"target="_blank">CIS1110 - Web Design and Development module</a>
+		</section>
+	</section>
+	</main>
+	<section class="footer">
+		<section>
+			<p class="line1"><b>Robot Juice Fictious Products Not Ltd., Unit 9(3/4), Privet Drive, Little Whingeing, Surrey DN18 5RP</b></p>
+			<p class="line1"><b>Contact Us | Privacy | Terms & Conditions | Accessibility</b></p>
+		</section>
+		<section>
+			<p class="line2"><b>Telephone: +44 (0)1695 657648. Email: walshd@edgehill.ac.uk</b></p>
+			<p class="line2"><b>Copyright &copy; Dave Walsh. Design by Dave Walsh</b></p>
+		</section>
+	</section>
+</body>
+</html> 
+		

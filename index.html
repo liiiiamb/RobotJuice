@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home Page</title>
+	<link rel="stylesheet" href="style.css"/>
+	<link rel="stylesheet" href="grid.css"/>
+	<link href="http://fonts.cdnfonts.com/css/damion" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Iceberg' rel="stylesheet">
+	<script src="poll.js" defer></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+</head>
+<body>
+	<header> <!-- header contains code to create logo -->
+		<h1><span class="Robot">Robot</span> <span class="Juice">Juice</span></h1>
+		<h2>fictitious cycle lubricants</h2>
+	</header>
+	<main>
+	<section class="navbar"> <!--Code for the main navigation bar at the top of the page-->
+		<nav>
+			<ul>
+				<li ><a class="active" href="index.html">Home</a></li>
+				<li><a href="product.html">Products</a></li>
+				<li><a href="">Protect</a></li>
+				<li><a href="">Stockist's</a></li>
+				<li><a href="">Events</a></li>
+				<li><a href="">Reviews</a></li>
+			</ul>
+		</nav>
+	</section>
+	<section class="image1"> <!-- main image shown on the first page -->
+		<img src="images/robotbanner.jpg" alt="Robot Banner" id="robotbanner"/>
+	</section>
+	<section class="product"> <!-- section describing the product under banner image -->
+		<p>Robot juice is the ultimate fictious bicycle and motorcycle
+		lubricant oils</p>
+		</section>
+	<section class="container"> <!--  this contains the 4 images under the text and their descriptions, created using sections and p tags-->
+		<section class="oil" id="box1">
+			<img src="images/bikechain-bikeoil.jpg" alt="Bike Oil" id="oilimg" />
+			<p class="productheaders">Bike Oil</p>
+			<p class="producttext" id="underoil">Stops and protects against rust, reduces friction on moving parts and is essential on any cycle</p>
+		</section>
+		<section class="dlubricant" id="box2">
+			<img src="images/cycleside-drylubrication.jpg" alt="Dry Lubricant" id="dlubricantimg"/>
+			<p class="productheaders">Dry Lubricant</p>
+			<p class="producttext" id="underdlubricant">Perfect chain lubricant for dry road riding. Resists water penetration and wash-off easily.</p>
+		</section>
+		<section class="wlubricant" id="box3">
+			<img src="images/frontcycle-wetlubrication.jpg" alt="Wet Lubricant" id="wlubricantimg"/>
+			<p class="productheaders">Wet Lubricant</p>
+			<p class="producttext" id="underwlubricant">A thick, heavy duty lube designed to stick to the chain in wet conditions. Ideal for extreme weather and long distance riding</p>
+		</section>
+		<section class="previews" id="box4">
+			<img src="images/productreviews.jpg" alt="Product Reviews" id="previewsimg"/>
+			<p class="productheaders">Product Reviews</p>
+			<p class="producttext" id="underpreviews">Read what the press and our customers say about our excellent products</p>
+		</section>
+	</section>
+	<section class="newspoll">  <!-- this holds both the news section and the poll in one section to span the full width of the page -->
+	
+		<section class="news" id="section31"> <!-- specifically holds the news part of this section and all of its text -->
+		
+			<p id="latest"> Latest News </p>
+			<p class="nheading"> News item one!</p>
+			<p class="ntext" id="1text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nil ut aliquip ex ea commodo consequat. Duis autem vel eum iriure.</p>
+			<p class="ndate" id="1date"> September, 2012</p>
+			<p class="nheading"> News item one!</p>
+			<p class="ntext" id="2text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit </p>
+			<p class="ndate" id="2date"> September, 2012</p>
+			<p class="nheading"> News item one!</p>
+			<p class="ntext" id="3text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit. </p>
+			<p class="ndate" id="3date"> September, 2012</p>
+		</section>
+		<section class="poll" id="section32"> <!-- holds the poll which currently doesn't work but still acts like a radio button, also holds the competition information below it -->
+		<form>
+			<h2 class="pollheaders"> Reader Poll</h2>
+			<p id="polltext"> Are Robot Juice the best and most usable and accessible fake oils around?</p>
+			<input type="radio" name="yes" value="yes" class="radiobutn"><label class="radiobutn">Yes</label><p id="num1"></p><br>
+			<input type="radio" name="no" value="no" class="radiobutn"><label class="radiobutn">No</label><p id="num2"></p><br>
+			<input type="button" id="btn" value="Submit" onclick="myFunction()">
+		</form>
+			<h2 class="pollheaders"> Competition</h2>
+			<p class="comptext">Win absolutely nothing by entering this extremely expensive compeititon. Robot Juice will not send you a full range of our cycling and motorcycle oils and lubricants as we do not exist. But just for fun..</p>
+			<p class="comptext">Which Film is our address made up from?</p>
+			<p class="comptext">a) Armageddon</p>
+			<p class="comptext">b) Harry Potter</p>
+			<p class="comptext">c) The Simpson (Movie)</p>
+			<p class="comptext">answers on a postcard please.</p>
+		</section>
+	</section>
+	<p id="greybreak"></p> <!-- grey border to seperate the poll news section and the section below it, css applied to create a border grey line -->
+	<section class="reviewlinks"> 
+	
+		<img src="images/cyclemagazine.jpg" alt="Cycle Magazine" id="reviewlinks21" class="cyclemagimage" />
+		<section class="reviews" id="reviewlinks22"> 
+			<h3 id="reviewheading">Latest Reviews</h3>
+			<p id="reviewtext">Cycling magazine has given Robot Juice a 5 star rating in its latest reviews of dry lubricants. Robot Juice Dry lube was rated the highest out of over 40 top brand dry lubs.</p>
+		</section>
+		<section class="links" id="reviewlinks23"> <!-- holds all of the links on the page and their relevant association, including target="_blank" ensures that the link opens on a new tab -->
+			<h4 id="linkheading">Links</h4>
+			<a href="https://www.edgehill.ac.uk/" class="linktext" target="_blank">Edge Hill University</a>
+			<a href="https://www.linkedin.com/in/dave-walsh-57680527/" class="linktext" target="_blank">Dave Walsh</a>
+			<a href="https://twitter.com/walsh_d/" class="linktext"target="_blank">https://twitter.com/walsh_d</a>
+			<a href="https://www.edgehill.ac.uk/courses/software-engineering/tab/modules/" class="linktext"target="_blank">CIS1110 - Web Design and Development module</a>
+		</section>
+	</section>
+	</main>
+	<section class="footer"> <!-- the same footer that is featured on both pages -->
+		<section>
+			<p class="line1"><b>Robot Juice Fictious Products Not Ltd., Unit 9(3/4), Privet Drive, Little Whingeing, Surrey DN18 5RP</b></p>
+			<p class="line1"><b>Contact Us | Privacy | Terms & Conditions | Accessibility</b></p>
+		</section>
+		<section>
+			<p class="line2"><b>Telephone: +44 (0)1695 657648. Email: walshd@edgehill.ac.uk</b></p>
+			<p class="line2"><b>Copyright &copy; Dave Walsh. Design by Dave Walsh</b></p>
+		</section>
+	</section>
+			
+</body>
+</html> 

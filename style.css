@@ -1,0 +1,564 @@
+@media only screen and (min-width: 800px){ /* styling for desktop only*/
+	h1 {
+		font-family: 'Damion', sans-serif;
+		font-size: 60px; 
+		
+	}
+
+	.Robot{
+		color: #C5110B
+	}
+
+	.Juice{
+		color: #000000
+	}
+
+	h2{
+		font-size: 13px;
+		color: #333333;
+		text-align: right;
+		width: 260px;
+		font-family: 'arial';
+		
+	}
+
+	header{
+		margin-left: 100px;
+		margin-top: 50px;
+	}
+
+	li {
+		float: left;
+		margin-right: 130px;
+		border-right: 1px solid #d9d9d9;
+		color: #d9d9d9;
+		border-left: 1px solid #d9d9d9;
+	}
+
+	li a{
+		display: block;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+
+	body{
+		background-color: #f5f5f5;
+		font-family: 'arial';
+	}
+
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #f5f5f5;
+		margin-left: 120px;
+		border-top: 1px solid #d9d9d9;
+	}
+
+	li a:hover{
+		background-color: #ededed;
+		color: black;
+	}
+
+	.active{
+		background-color: #C5110B;
+		color: white;
+	}
+
+	.image1{
+		margin-left: 120px;
+	}
+
+	#robotbanner{
+		width: 1155px;
+		height: 500px;
+	}
+
+	#oilimg{
+		 width: 250px;
+		 height: 200px;
+	}
+
+	#dlubricantimg{
+		 width: 250px;
+		 height: 200px;
+	}
+	#wlubricantimg{
+		 width: 250px;
+		 height: 200px;
+	}
+	#previewsimg{
+		 width: 250px;
+		 height: 200px;
+	}
+	.product{
+		font-family: 'Iceberg'; 
+		font-size:30px;
+		color: #575859;
+		margin-left: 277.5px;
+		width: 800px;
+		text-align: center;
+	}
+
+	.productheaders{
+		font-family: 'Iceberg';
+		font-size: 24px;
+		color: #575859;
+		font-weight: bold;
+	}
+
+	.producttext{
+		font-family: 'arial';
+		font-size: 12px;
+	}
+
+	#box1{
+		width: 21.5%;
+		display: inline-block;
+	}
+
+	#box2{
+		width: 21.5%;
+		display: inline-block;
+	}
+
+	#box3{
+		width: 21.5%;
+		display: inline-block;
+	}
+
+	#box4{
+		width: 21.5%;
+		display: inline-block;
+	}
+
+	.container{
+		margin-left: 120px;
+	}
+
+	#underoil{
+		width: 80%;
+	}
+
+	#underdlubricant{
+		width: 70%;
+	}
+
+	#underwlubricant{
+		width: 75%;
+	}
+
+	#underpreviews{
+		width: 75%;
+	}
+
+	#latest{
+		font-family: 'Iceberg';
+		font-size: 24px;
+		color: #575859;
+		font-weight: bold;
+	}
+
+	.nheading{
+		color:#ba8a75;
+		font-weight: bold;
+		font-size: 14px;
+	}
+
+	.ntext{
+		font-size: 12px;
+		
+	}
+
+	.ndate{
+		color:#f71919;
+		font-weight: bold;
+		font-size: 11px;
+		font-style: italic;
+		text-align: right;
+	}
+
+	.news{
+		margin-left: 120px;
+		
+	}
+
+	.pollheaders{
+		font-family: 'Iceberg';
+		font-size: 24px;
+		color: #575859;
+		font-weight: bold;
+	}
+
+	#polltext{
+		color: #f71919;
+		font-size: 12px;
+
+	}
+
+	.polloption{
+		font-size: 13px;
+	}
+
+	.comptext{
+		font-size: 12px;
+	}
+
+	h2{
+		margin-right: 400px;
+	}
+
+	#section31{
+		display:inline-block;
+		width: 27%;
+	}
+
+	#section32{
+		display:inline-block;
+		width: 27%;
+	}
+
+
+	.poll{
+		margin-left: 300px;
+	}
+
+	.poll{
+		background-color: white;
+		padding: 50px;
+	}
+
+	#reviewheading{
+		font-size: 23px;
+		color: #C5110B;
+		margin-left: 200px;
+	}
+
+	#linkheading{
+		font-size: 23px;
+		color: #C5110B;
+		margin-left: 200px;
+	}
+
+	#reviewtext{
+		font-size: 14px;
+		color: #C5110B;
+		width: 250px;
+		margin-left: 200px;
+	}
+
+	.linktext{
+		font-size: 14px;
+		color: #C5110B;
+		margin-left: 200px;
+		width: 500px;
+	}
+
+	.reviewlinks{
+		
+		background-color: white;
+		border-top: black solid;
+	}
+
+	.reviewlinks21{
+		display: inline-block;
+		width: 35%;
+		width:110px;
+		height: 150px;
+	}
+
+	#reviewlinks22{
+		display: inline-block;
+		width: 35%;
+	}
+
+	#reviewlinks23{
+		display: inline-block;
+		width: 35%;
+	}
+
+
+	.cyclemagimage{
+		max-width: 150px;
+		margin-left: 140px;
+	}
+
+	#greybreak{
+		padding: 20px;
+	}
+
+	.footer{
+		width: 100%;
+		background-color: #C5110B;
+		text-align: center;
+		height: 250px;
+	}
+
+	.line1{
+		display: inline-block;
+		width: 45%;
+		font-size: 14px;
+	}
+
+	.line2{
+		display: inline-block;
+		width: 45%;
+		font-size: 14px;
+	}
+
+	.productimages{
+		border: red solid;
+		margin-left: 140px;
+	}
+
+
+	.productinfo{
+		margin-left: 50px;
+
+	}
+
+	#productname{
+		font-family: 'Iceberg';
+		font-size: 24px;
+		color: #575859;
+		font-weight: bold;
+	}
+
+
+
+	.dropdown1{
+		position: relative;
+		display: inline-block;
+		font-size: 12px;
+		font-weight: bold;
+		width: 130px;
+		height: 40px;	
+	}
+	#size{
+		width: 150px;
+		height: 40px;
+		font-size: 12px;
+		font-weight: bold;
+	}
+
+
+
+
+
+	#price{
+		font-size: 20px;
+		font-weight: bold;
+		color: #C5110B;
+	}
+
+	.productwrapper{
+		margin-top: 50px;
+	}
+
+
+
+	.dropdown2{
+		position: relative;
+		display: inline-block;
+		cursor: pointer;
+	}
+
+	#qty{
+		width: 150px;
+		height: 40px;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	#buybtn{
+		background-color: #C5110B;
+		color: white;
+		padding-left: 50px;
+		padding-top: 20px;
+		padding-right: 30px;
+		padding-bottom: 20px;
+		margin-right: 40px;
+		text-align: center;
+		font-weight: bold;
+		cursor: pointer;
+		width: 290px;
+	}
+
+	.buytext{
+		text-align: right;
+		font-size: 14px;
+		font-weight: bold;
+		color: #C7C6C6;
+		margin-right: 30px;
+	}
+
+	#buydesc{
+		font-size: 14px;
+	}
+
+	#similarprod{
+		font-family: 'Iceberg';
+		font-size: 24px;
+		color: #575859;
+		font-weight: bold;
+		margin-left: 130px;
+	}
+
+	.simprodimgs{
+		margin-left: 30px;
+		width: 170px;
+		height: 150px;
+	}
+
+	#prodreviewtitle{
+		font-family: 'Iceberg';
+		font-size: 24px;
+		color: #575859;
+		font-weight: bold;
+		margin-left: 130px;
+	}
+
+	#review1{
+		margin-left: 250px;
+		width: 100%;
+		padding: 0;
+
+	}
+
+	.reviewimage{
+		display: inline-block;
+		width: 130px;
+		height: 100px;
+	}
+
+	.gg1{
+		width: 20%;
+		height: 100%;
+		display: inline-block;
+		text-align: center;
+	}
+
+	.review1text{
+		width: 32%;
+		height: 100%;
+		display: inline-block;
+	}
+
+	#review2{
+		margin-left: 250px;
+		width: 100%;
+		padding: 0;
+	}
+	#review3{
+		margin-left: 250px;
+		width: 100%;
+		padding: 0;
+	}
+	#review4{
+		margin-left: 250px;
+		width: 100%;
+		padding: 0;
+	}
+	#review5{
+		margin-left: 250px;
+		width: 100%;
+		padding: 0;
+	}
+
+	.reviewborder{
+		border-bottom: 2px solid grey;
+		width: 80%;
+		margin-left: 150px;
+	}
+
+
+
+	.readrev{
+		background-color: #E63333;
+		color: white;	
+		border: none;
+		border-radius: 11px;
+		height: 40px;
+		margin-left: 700px;
+		padding: 10px;
+		font-weight: bold;
+	}
+		
+	#image1id{
+		width: 100px;
+		height: 60px;
+	}
+	#image2id{
+		width: 100px;
+		height: 60px;
+	}
+	#image3id{
+		width: 100px;
+		height: 60px;
+	}
+	#image4id{
+		width: 700px;
+		height: 400px;
+	}
+	#fbimg{
+		width: 10px;
+		height: 10px;
+	}
+	#twtimg{
+		width:10px;
+		height: 10px;
+	}
+	#emailimg{
+		width: 10px;
+		height: 10px;
+	}
+	#reviewlinks240{
+		display: inline-block;
+		width: 50%;
+	}
+	#reviewlinks241{
+		display: inline-block;
+		width: 25%;
+	}
+	#reviewlinks242{
+		display: inline-block;
+		width: 25%;
+	}
+	.result{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 800px){ /* styling for mobile version*/
+	.navbar{
+		width: 100%;
+	}
+	.image1{
+		width: 100%;
+	}
+	.product{
+		width: 100%;
+	}
+	.container{
+		width: 100%;
+	}
+	.newspoll{
+		width: 100%;
+	}
+	.reviewlinks{
+		width: 100%;
+	}
+	.footer{
+		width: 100%;
+	}
+	.productwrapper{
+		width: 100%;
+	}
+	.similarprod{
+		width: 100%;
+	}
+	.prodreview{
+		width: 100%;
+	}
+}
